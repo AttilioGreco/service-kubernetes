@@ -60,6 +60,6 @@
 
 - import_tasks: post-conf-falco.yml
 
-- import_tasks: reboot.yml
-  when:
-    - node == "true"
+# - import_tasks: reboot.yml
+#   when:
+#     - node == "true"
